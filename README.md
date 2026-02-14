@@ -45,22 +45,19 @@ O projeto consiste em uma rede social voltada para cães, permitindo o cadastro 
 ### Clone o repositório:
 
 ```sh
-git clone [https://github.com/seu-usuario/dogs-vue.git](https://github.com/seu-usuario/dogs-vue.git)
-cd dogs-vue
+git clone https://github.com/wan0805/dogs.git
 ```
 
 ### Instale as dependências:
 
 ```sh
 npm install
-cd npm install
 ```
 
 ### Inicie o servidor de desenvolvimento:
 
 ```sh
 npm run dev
-cd run dev
 ```
 
 ### 🔐 Variáveis de Ambiente
@@ -71,7 +68,6 @@ Para o funcionamento correto das chamadas à API, crie um arquivo .env na raiz d
 
 ```sh
 VITE_API_URL=https://dogsapi.origamid.dev/json
-cd VITE_API_URL=https://dogsapi.origamid.dev/json
 ```
 
 ### 🚀 Melhorias Implementadas
@@ -99,5 +95,5 @@ Um agradecimento especial à **Origamid** e ao professor **André Rafael**, cria
 ---
 
 <p align="center">
-  Desenvolvido com ☕ e 💚 por [Wanderson Duarte]
+  Desenvolvido com ☕ e 💚 por Wanderson Duarte
 </p>
