@@ -1,0 +1,42 @@
+/* semantic color variables for this project */
+:root {
+    ---type-first: Helvetica, Arial, sans-serif;
+    --type-second: 'Spectral', georgia;
+    --bg-color: #fff;
+    --color-yellow: #fb1;
+    --color-yellow-fea: #fea;
+    --color-black-3: #333;
+    --color-black-6: #666;
+    --color-gray-eee: #eee;
+    --message-sucess: #4c1;
+    --message-error: #f31;
+    --shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    --border-radius: 0.4rem;
+    --title: #333;
+    --color-gray-ddd: #ddd;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border-photo: #fff;
+    --logo-footer: rgb(219, 143, 43);
+    --bg-modal: rgba(0, 0, 0, 0.4);
+    --chart-text: #000000;
+    --grid-stats: rgba(0, 0, 0, 0.3);
+}
+[data-theme='dark'] {
+    --bg-color: #121212;
+    --color-black-3: #f5f5f5;
+    --color-black-6: #ddd;
+    --color-gray-eee: #333;
+    --color-yellow: #fd1;
+    --message-sucess: #4c1;
+    --message-error: #f31;
+    --shadow: 0 1px 1px rgba(184, 183, 183, 0.1);
+    --border-radius: 0.4rem;
+    --title: #eeee;
+    --color-gray-ddd: #aaa9a9;
+    --shadow-color: rgba(184, 183, 183, 0.1);
+    --border-photo: rgba(184, 183, 183, 0.273);
+    --logo-footer: rgb(219, 143, 43);
+    --bg-modal: #1e1e1e;
+    --chart-text: #fff;
+    --grid-stats: #292929dc;
+}
