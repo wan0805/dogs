@@ -12,7 +12,7 @@ import { Head } from '@/composables/useHead';
 const userStore = useUserStore();
 
 const username = useForm('text');
-const password = useForm('text');
+const password = useForm('password');
 
 async function handleSubmit() {
     try {
